@@ -17,9 +17,9 @@
   }
   body{
   background-color:#FEF8FB;
-  height: 100vh; 
+  height: 10vh; 
   height: -webkit-fill-available; 
-  min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  min-height: 10vh; /* Fallback for browsers that do not support Custom Properties */
   min-height: -webkit-fill-available;
   overflow-x: hidden;
   }
@@ -28,8 +28,9 @@
   text-align: left;
   font-style: italic; 
   font-family: Helvetica, sans-serif; 
-  font-size: 7.5vw;
+  font-size: min(9.5vw, 100px);
   background-color: #FEF8FB;
+  white-space: nowrap;
   }
   </style>
 </head>

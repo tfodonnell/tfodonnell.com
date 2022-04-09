@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="author" content="Thomas O'Donnell">
 <title>THOMAS O'DONNELL</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, 
+minimum-scale=1.0">
 <meta name="description" content="THOMAS O'DONNELL / BERLIN, DE">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -15,8 +16,13 @@
 <style type="text/css">
 a{text-decoration:none; color:#383838;}
 body{background-color:#fef7fa;}
-h1{text-align:left; font-style: italic; font-family:Helvetica, sans-serif;color:#383838; background-color:#fef7fa;}
-h2{text-align:left; font-style: italic; font-family:Helvetica, sans-serif;color:#383838; background-color:#fef7fa;}
+body {
+ height: 100vh; 
+ height: -webkit-fill-available; 
+ min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+ min-height: -webkit-fill-available; 
+}
+h1{text-align:left; font-style: italic; font-family:Helvetica, sans-serif; background-color:#fef7fa;}
 </style>
 </head>
 

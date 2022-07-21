@@ -1,12 +1,20 @@
 
   a {
-    text-decoration:none; 
     color:#242424;
+  }
+
+  a:hover {
+  color: #505050;
+  }
+
+  a:link { 
+  color: #242424;
   }
 
   body {
     background-color:#fff2e6;
     overflow: hidden;
+    overscroll-behavior-y: contain;
   }
 
   h1, h2 {
@@ -14,7 +22,7 @@
     font-style: italic; 
     font-family: Helvetica, sans-serif; 
     text-align: left; 
-    font-size: min(7.5vw); 
+    font-size: min(8vw); 
     white-space: nowrap;
   }
 
@@ -23,6 +31,6 @@
     font-style: italic; 
     font-family: Helvetica, sans-serif; 
     text-align: right; 
-    font-size: min(7.5vw); 
+    font-size: min(8vw); 
     white-space: nowrap;
   }

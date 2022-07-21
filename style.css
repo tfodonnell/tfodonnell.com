@@ -13,7 +13,7 @@
     font-style: italic; 
     font-family: Helvetica, sans-serif; 
     text-align: left; 
-    font-size: min(8.5vw); 
+    font-size: min(7.5vw); 
     white-space: nowrap;
   }
 
@@ -22,6 +22,6 @@
     font-style: italic; 
     font-family: Helvetica, sans-serif; 
     text-align: right; 
-    font-size: min(8.5vw); 
+    font-size: min(7.5vw); 
     white-space: nowrap;
   }

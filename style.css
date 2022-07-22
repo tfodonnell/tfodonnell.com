@@ -1,13 +1,9 @@
 a {
-  color: #242424;
+  color: #7f71ff;
 }
 
 a:hover {
-  color: #505050;
-}
-
-a:link {
-  color: #242424;
+  color: #aaa0ff;
 }
 
 body {
@@ -18,19 +14,21 @@ body {
 
 h1,
 h2 {
-  margin: 1vmin;
-  font-style: italic;
+  color: #ff6453;
   font-family: Helvetica, sans-serif;
-  text-align: left;
   font-size: min(8vw);
+  font-style: italic;
+  margin: 1vmin;
+  text-align: left;
   white-space: nowrap;
 }
 
 h3 {
-  margin: 1vmin;
-  font-style: italic;
+  color: #7f71ff;
   font-family: Helvetica, sans-serif;
-  text-align: right;
   font-size: min(8vw);
+  font-style: italic;
+  margin: 1vmin;
+  text-align: right;
   white-space: nowrap;
 }

@@ -20,7 +20,7 @@ h1,
 h2 {
   color: #9a55ff;
   font-family: Helvetica, sans-serif;
-  font-size: min(7vw);
+  font-size: min(6vw);
   font-style: italic;
   margin: 1vmin;
   text-align: left;
@@ -32,7 +32,7 @@ h2 {
 h3 {
   color: #ff5a48;
   font-family: Helvetica, sans-serif;
-  font-size: min(7vw);
+  font-size: min(6vw);
   font-style: italic;
   margin: 1vmin;
   text-align: right;

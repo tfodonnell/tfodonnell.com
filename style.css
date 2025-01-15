@@ -38,3 +38,12 @@ h3 {
   text-align: right;
   white-space: nowrap;
 }
+
+h4 {
+  color: #9a55ff;
+  font-family: Helvetica, sans-serif;
+  font-size: 15;
+  margin: 1vmin;
+  text-align: left;
+  white-space: nowrap;
+}

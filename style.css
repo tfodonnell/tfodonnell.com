@@ -1,49 +1,34 @@
 a {
-  color: #ff5a48;
+    color: #ff5a48;
 }
 
 a:hover {
-  color: #ff8173;
+    color: #ff8173;
 }
-
-/* BACKGROUND */
 
 body {
-  background-color: #fff2e6;
-  overflow: hidden;
-  overscroll-behavior-y: contain;
+    background-color: #fff2e6;
+    overflow: hidden;
+    overscroll-behavior-y: contain;
 }
-
-/* INFO */
 
 h1,
 h2 {
-  color: #9a55ff;
-  font-family: Helvetica, sans-serif;
-  font-size: min(7vw);
-  font-style: italic;
-  margin: 1vmin;
-  text-align: left;
-  white-space: nowrap;
+    color: #9a55ff;
+    font-family: Helvetica, sans-serif;
+    font-size: min(7vw);
+    font-style: italic;
+    margin: 1vmin;
+    text-align: left;
+    white-space: nowrap;
 }
-
-/* LINKS */
 
 h3 {
-  color: #ff5a48;
-  font-family: Helvetica, sans-serif;
-  font-size: min(6vw);
-  font-style: italic;
-  margin: 1vmin;
-  text-align: right;
-  white-space: nowrap;
-}
-
-h4 {
-  color: #9a55ff;
-  font-family: Helvetica, sans-serif;
-  font-size: 15;
-  margin: 1vmin;
-  text-align: left;
-  white-space: nowrap;
+    color: #ff5a48;
+    font-family: Helvetica, sans-serif;
+    font-size: min(6vw);
+    font-style: italic;
+    margin: 1vmin;
+    text-align: right;
+    white-space: nowrap;
 }
